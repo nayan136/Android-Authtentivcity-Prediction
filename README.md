@@ -32,9 +32,10 @@ This dataset consists of apps needed permissions during installation and run-tim
   * Naive Bayes
   * XGBoost
 
-# Best Model
+# Best Model:
   We use F1 score to find our best model beacuse our dataset is slightly imbalanced and there is a serious downside to predicting false negatives. Base on F1 score Logistic Regression gives the best result of ~91% for train and test.
- # Model Explainability
+ # Model Explainability:
+ We will explian our model using LIME (Local Interpretable Model-Agnostic Explanations) & ELI5 (Explain like I'm 5)
  ## LIME
   ![Screenshot](lime.png)
  ## ELI5
