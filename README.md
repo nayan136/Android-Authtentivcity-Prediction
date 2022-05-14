@@ -40,3 +40,11 @@ This dataset consists of apps needed permissions during installation and run-tim
   ![Screenshot](lime.png)
  ## ELI5
   ![Screenshot](eli5.png)
+  
+# Conclusion:
+* 22 % rows consists of duplicate values.
+* Given dataset is slightly imbalanced because 67% apps are malware and rest 33% are Benign.
+* Between Rating 0 to 3, most of the apps have malware. From 3 to 5, there are more benign apps as compared to ratings between 0-3.
+* For the categories, ‘Travel & Local’, ‘Tools’, ‘Sports’ etc., almost all apps are malware. For the categories, ‘Comics’, ‘Libraries & Demo’ etc, almost all apps are benign.
+* All paid apps are malware and number of malware apps is higher than benign in the free apps. But it does not makes sense for all paid apps are to be malware. It may be due to misclassification of apps.
+* We use F1 score since our dataset is slightly imbalanced and there is a serious downside to predicting false negatives. Among all models, Logistic Regression has the best F1 Score of almost 91% for both train and test dataset.
