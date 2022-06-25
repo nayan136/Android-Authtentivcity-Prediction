@@ -48,3 +48,10 @@ This dataset consists of apps needed permissions during installation and run-tim
 * For the categories, ‘Travel & Local’, ‘Tools’, ‘Sports’ etc., almost all apps are malware. For the categories, ‘Comics’, ‘Libraries & Demo’ etc, almost all apps are benign.
 * All paid apps are malware and number of malware apps is higher than benign in the free apps. But it does not makes sense for all paid apps are to be malware. It may be due to misclassification of apps.
 * We use F1 score since our dataset is slightly imbalanced and there is a serious downside to predicting false negatives. Among all models, Logistic Regression has the best F1 Score of almost 91% for both train and test dataset.
+
+# Files Description:
+<strong>ANDRIOD_AUTHENTICITY_PREDICTION.ipynb: </strong>Python notebook with all the Data Preprocessing and Classification code.
+<br>
+<strong>Android autheticity prediction presentation.pdf: </strong>Presentation of the project.
+<br>
+<strong>ANDRIOD AUTHENTICITY PREDICTION.zip: </strong>Contains the dataset.
